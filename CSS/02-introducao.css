@@ -8,13 +8,13 @@
   font-family: 'Poppins' , sans-serif;
   font-size: 3em;
   font-weight: 700;
-  line-height: 1.125;
+  line-height: 1.125em;
   color: #09042B;
   margin-bottom: 20px;
 }
 
 .introducao p {
-  font-family: 'Poppins' , sans-serif;
+  font-family: 'Roboto' , sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   color: #09042B;

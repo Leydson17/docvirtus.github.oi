@@ -1,18 +1,39 @@
 .gerencie {
+  display: flex;
+  background: #05051B ;
+}
+
+.gerencie-conteiner {
   position: relative;
   align-items: center;
-  margin: -25px auto;
+  margin: -26px auto;
+  margin-bottom: 80px;
   width: 80%;
   height: 50px;
   border-radius: 5px;
   background: #080135;
-}
-
-.gerencie-conteiner {
   font-family: "Popins", sans-serif;
   font-weight: 600;
   font-size: 1em;
   padding-top: 10px;
   text-align: center;
   color: #BBCAEE;
+}
+
+.gerencie-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+	padding-bottom: 100px;
+  background: #05051B ;
+}
+
+.gerencie-icons h3 {
+  font-size: 1em;
+  font-family: "Popins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #BBCAEE;
+  text-transform: uppercase;
 }

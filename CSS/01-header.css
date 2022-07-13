@@ -1,7 +1,7 @@
 /* MENU */
 
 .menu {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   background: center/cover url('/img/pagina_inicial/introdução.jpg');  
 }
 

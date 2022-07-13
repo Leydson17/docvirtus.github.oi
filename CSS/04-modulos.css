@@ -1,0 +1,59 @@
+.modulos {
+  height: calc(110vh - 80px);
+  background: center/cover url('/img/pagina_inicial/modulos.jpg');
+}
+
+.introducao2 {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introducao2 h1 {
+  font-family: 'Poppins' , sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.125em;
+  color: #09042B;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.introducao2 p {
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #09042B;
+  line-height: 1.2;
+  padding-bottom: 70px;
+}
+
+.modulos-icons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+	padding-bottom: 60px;
+}
+
+.modulos-icons h3 {
+  font-family: "Popins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.botao {
+  text-decoration: none;
+  padding: 16px 32px;
+  background: #2295FF99;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #09042B;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
