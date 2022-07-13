@@ -1,0 +1,67 @@
+/* MENU */
+
+.menu {
+  height: calc(100vh - 100px);
+  background: center/cover url('/img/pagina_inicial/introdução.jpg');  
+}
+
+.menu-container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.menu-container::after, .menu-container::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.menu-logo a {
+	display: block;
+	float: left;
+	margin-left: 10px;
+  max-width: 100px;
+}
+.menu-logo img {
+  padding: 0px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.menu-nav {
+	float: right;
+	margin-right: 10px;
+}
+
+.menu-nav li {
+	display: inline-block;
+}
+
+.menu-nav a {
+  display: inline-block;
+	margin-top: 20px;
+  margin-right: 20px;
+	text-decoration: none;
+	color: #09042B;
+	font-size: 1.125em;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  position: relative;
+}
+
+.menu-nav a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #09042B;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute
+}
+
+.menu-nav a:hover::after {
+  width: 100%;
+}
