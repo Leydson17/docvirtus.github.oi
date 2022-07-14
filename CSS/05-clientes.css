@@ -1,0 +1,20 @@
+.clientes-conteiner {
+  background: #080135;
+}
+
+.clientes h1 {
+  font-family: "Poppins" , sans-serif;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-left: 150px;
+  font-weight: 700;
+  font-size: 3em;
+  color: #E9E9FF;
+}
+
+.clientes-img {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}

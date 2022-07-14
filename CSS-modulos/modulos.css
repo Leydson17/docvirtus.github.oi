@@ -1,6 +1,31 @@
+/* Reset */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Popins", sans-serif;
+  color: #09042b;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+span {
+  color: #5202FC;
+}
+
 .menu {
-  height: calc(100vh - 120px);
-  background: center/cover url('/img/pagina_inicial/introdução.jpg');  
+  background: #E9E9FF ;  
 }
 
 .menu-container {
@@ -20,11 +45,12 @@
 	margin-left: 10px;
   max-width: 100px;
 }
+
 .menu-logo img {
   padding: 0px;
   width: 200px;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .menu-nav {
@@ -62,4 +88,14 @@
 
 .menu-nav a:hover::after {
   width: 100%;
+}
+
+.modulos h1 {
+  background: #E9E9FF;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.125em;
+  color: #09042B;
+  padding: 20px 0px 20px 100px;  
 }

@@ -2,10 +2,9 @@
 @import "/CSS/02-introducao.css";
 @import "/CSS/03-gerencie.css";
 @import "/CSS/04-modulos.css";
-
-
-
-
+@import "/CSS/05-clientes.css";
+@import "/CSS/06-contato.css";
+@import "/CSS/07-footer.css";
 
 /* Reset */
 
@@ -26,4 +25,9 @@ body {
 
 * {
   box-sizing: border-box;
+  list-style: none;
+}
+
+span {
+  color: #5202FC;
 }
