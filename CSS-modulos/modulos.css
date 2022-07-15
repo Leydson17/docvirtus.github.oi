@@ -5,7 +5,8 @@ h1,
 h2,
 h3,
 p,
-ul {
+ul,
+img {
   padding: 0px;
   margin: 0px;
 }
@@ -24,8 +25,10 @@ span {
   color: #5202FC;
 }
 
+/* HEADER */
+
 .menu {
-  background: #E9E9FF ;  
+  background: #E9E9FF;  
 }
 
 .menu-container {
@@ -90,6 +93,13 @@ span {
   width: 100%;
 }
 
+
+/* MODULOS */
+
+.modulos {
+  background: #E9E9FF;
+}
+
 .modulos h1 {
   background: #E9E9FF;
   font-family: 'Poppins' , sans-serif;
@@ -97,5 +107,132 @@ span {
   font-weight: 700;
   line-height: 1.125em;
   color: #09042B;
-  padding: 20px 0px 20px 100px;  
+  padding: 20px 0px 50px 100px;
+
+}
+.modulos-conteiner h3 {
+  font-family: "Popins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.modulos-frame a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+	padding-bottom: 30px;
+}
+
+.modulos-client a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+	padding-bottom: 30px;  
+}
+
+.modulos-designer a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+	padding-bottom: 30px;
+}
+.lista-item li {
+  font-family: "Popins", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.lista-item li::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 9px;
+  background-image: url("/img/icons/Lista.svg");
+  position: absolute;
+  top: 5px;
+  left: -20px;  
+}
+
+.modulos-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 30px 0 30px 0px;
+}
+
+.modulos-conteiner2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: #F3F7FFE5;
+  padding: 30px 0 30px 0px;
+}
+
+.modulos-conteiner2 h3 {
+  font-family: "Popins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 20px
+}
+
+/* FOOTER */
+
+.footer {
+  background: #05051B;
+}
+
+.footer-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
+  margin-left: 30px;
+}
+.footer-logo2 {
+  display: inline-block;
+}
+
+.footer-conteiner a,
+.footer-conteiner li {
+  text-decoration: none;
+  color: #BBCAEE;
+}
+
+.footer-contato h3 ,
+.footer-informacoes h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #E9E9FF;
+}
+
+.footer-contato li {
+  margin-bottom: 10px;
+}
+
+.footer-informacoes li {
+  margin-bottom: 15px;
+}
+.redes img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.footer-copy {
+  display: block;
+  grid-column: 1/-1;
+  margin-top: 40px;
+  color: #BBCAEE;
+  padding-left: 30px;
+  padding-bottom: 40px;
 }
