@@ -1,5 +1,13 @@
+.introducao-container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 .introducao {
-  max-width: 1100px;
   margin: 85px auto;
   text-align: center;
 }

@@ -1,5 +1,14 @@
-.clientes-conteiner {
+.clientes {
   background: #080135;
+}
+
+.clientes-container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .clientes h1 {

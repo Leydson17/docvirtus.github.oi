@@ -1,6 +1,15 @@
 .contato{
-  height: calc(130vh);
+  height: calc(150vh);
   background: center/cover url('/img/pagina_inicial/contato.jpg');
+}
+
+.contato-container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .contato h1 {
@@ -13,7 +22,7 @@
   color: #05051B;
 }
 
-.contato-container {
+.contato-form {
   display: block;
   font-family: "Poppins" , sans-serif;
   font-size: 1.5rem;

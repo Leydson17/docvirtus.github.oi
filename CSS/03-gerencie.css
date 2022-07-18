@@ -18,6 +18,10 @@
   padding-top: 10px;
   text-align: center;
   color: #BBCAEE;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .gerencie-icons {
