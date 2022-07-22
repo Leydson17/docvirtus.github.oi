@@ -1,10 +1,11 @@
 .contato{
-  height: calc(150vh);
+  height: calc(160vh);
   background: center/cover url('/img/pagina_inicial/contato.jpg');
 }
 
 .contato-container {
-  max-width: 1200px;
+  max-width: 960px;
+  min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -46,9 +47,43 @@
   border: #c4c4fa;
   padding: 14px;
   border-radius: 5px;
-  width: 30%;
+  width: 50%;
 } 
 
 .botao {
-  margin-top: 20px;  
+  margin-top: 20px; 
+}
+
+/* Responsivo */
+
+@media (max-width: 680px) {
+  .contato h1 {
+    font-size: 2em;
+    padding-bottom: 0px;
+  }
+  .contato-form {
+    font-size: 1.125em;
+  }
+  .botao {
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contato h1 {
+    font-size: 1.8em;
+  }
+  .contato-form {
+    font-size: 1em;
+  }
+  .contato-container input, textarea {
+    width: 90%;
+  }
+  .botao {
+    padding: 10px 26px;
+  }
 }

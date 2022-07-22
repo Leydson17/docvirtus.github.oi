@@ -1,10 +1,11 @@
 .modulos {
-  height: calc(110vh - 40px);
+  height: calc(110vh - 30px);
   background: center/cover url('/img/pagina_inicial/modulos.jpg');
 }
 
 .modulos-conteiner {
-  max-width: 1200px;
+  max-width: 960px;
+  min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -13,7 +14,6 @@
 }
 
 .introducao2 {
-  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
@@ -33,14 +33,14 @@
   font-weight: 500;
   font-size: 1.5em;
   color: #09042B;
-  line-height: 1.2;
+  line-height: 1.2em;
   padding-bottom: 50px;
 }
 
 .modulos-icons {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 90px;
   text-align: center;
 	padding-bottom: 60px;
 }
@@ -65,4 +65,97 @@
   line-height: 24px;
   border: none;
   cursor: pointer;
+}
+
+/* Responsivo */
+
+@media (max-width: 730px) {
+  .introducao2 h1 {
+    font-size: 2.7em;
+  }
+  .introducao2 p {
+    font-size: 1.3em;
+  }
+  .modulos-icons h3 {
+    font-size: 1.8em;
+  }
+  .modulos-icons {
+    gap: 50px;
+  }
+  .modulos-icons img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 650px) {
+  .introducao2 h1 {
+    font-size: 2.5em;
+  }
+  .introducao2 p {
+    font-size: 1.1em;
+  }
+  .modulos-icons h3 {
+    font-size: 1.5em;
+  }
+  .modulos-icons {
+    gap: 30px;
+  }
+  .modulos-icons img {
+    width: 150px;
+  }
+  .botao {
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 550px) {
+  .introducao2 h1 {
+    font-size: 2.3em;
+  }
+  .introducao2 p {
+    font-size: 1em;
+  }
+  .modulos-icons h3 {
+    font-size: 1.3em;
+  }
+  .modulos-icons {
+    gap: 30px;
+  }
+  .modulos-icons img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 490px) {
+  .modulos-icons h3 {
+    font-size: 1.3em;
+  }
+  .introducao2 p {
+    font-size: 0.9em;
+  }
+  .modulos-icons {
+    gap: 30px;
+  }
+  .modulos-icons img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 390px) {
+  .modulos-conteiner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .introducao2 h1 {
+    font-size: 2em;
+  }
+  .modulos-icons h3 {
+    font-size: 0.9em;
+  }
+  .modulos-icons {
+    gap: 20px;
+  }
+  .modulos-icons img {
+    width: 70px;
+  }
 }

@@ -3,7 +3,8 @@
 }
 
 .clientes-container {
-  max-width: 1200px;
+  max-width: 960px;
+  min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -15,7 +16,7 @@
   font-family: "Poppins" , sans-serif;
   padding-top: 50px;
   padding-bottom: 100px;
-  margin-left: 150px;
+  text-align: center;
   font-weight: 700;
   font-size: 3em;
   color: #E9E9FF;
@@ -26,4 +27,61 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+}
+
+/* Responsivo */
+
+@media (max-width: 860px) {
+  .clientes-img {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 730px) {
+  .clientes h1 {
+    font-size: 2.7em;
+    padding-bottom: 60px;
+  }
+  .clientes-img {
+    gap: 40px;
+  }
+  .clientes-img img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 620px) {
+  .clientes h1 {
+    font-size: 2.4em;
+    padding-bottom: 40px;
+  }
+  .clientes-img {
+    gap: 20px;
+  }
+  .clientes-img img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .clientes h1 {
+    font-size: 2.1em;
+    padding-bottom: 30px;
+  }
+  .clientes-img {
+    gap: 10px;
+  }
+  .clientes-img img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .clientes h1 {
+    font-size: 1.8em;
+    padding-bottom: 30px;
+  }
+  .clientes-img img {
+    width: 80px;
+  }
 }

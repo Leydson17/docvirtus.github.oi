@@ -1,20 +1,21 @@
 .introducao-container {
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 960px;
+  min-width: 320px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
 }
 
 .introducao {
-  margin: 85px auto;
+  margin: 50px auto;
   text-align: center;
 }
 
 .introducao h1 {
   font-family: 'Poppins' , sans-serif;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 700;
   line-height: 1.125em;
   color: #09042B;
@@ -24,11 +25,31 @@
 .introducao p {
   font-family: 'Roboto' , sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #09042B;
-  line-height: 1.2;
+  line-height: 1.125em;
 }
 
 span {
   color: #5202FC;
+}
+
+/* Responsivo */
+
+@media (max-width: 630px) {
+  .introducao {
+    margin: 40px auto;
+  }    
+}
+
+@media (max-width: 595px) {
+  .introducao {
+    margin-bottom: 0px;
+  }
+  .introducao h1 {
+    font-size: 1.8em;
+  }
+  .introducao p {
+    font-size: 1.125em;
+  }
 }
