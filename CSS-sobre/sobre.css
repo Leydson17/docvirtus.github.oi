@@ -103,7 +103,8 @@ span {
   background: #E9E9FF;
 }
 .sobre-conteiner {
-  max-width: 1200px;
+  max-width: 960px;
+  min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -118,8 +119,7 @@ span {
   line-height: 1.125em;
   color: #080135;
   text-align: start;
-  padding: 30px 200px 30px 200px;
-  
+  padding: 30px 80px 30px 80px;
 }
 
 .sobre h1 {
@@ -175,7 +175,8 @@ span {
 
 .footer-conteiner {
   display: grid;
-  max-width: 1200px;
+  max-width: 960px;
+  min-height: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -228,4 +229,152 @@ span {
   color: #BBCAEE;
   padding-left: 30px;
   padding-bottom: 40px;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 630px) {
+
+  .menu-container {
+    text-align: center;
+  }
+
+	.menu-nav {
+		float: none;
+		clear: both;
+	}
+
+  .menu-nav li a {
+    margin-top: 0px;
+  }
+
+  .menu-logo img {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+}
+
+
+
+@media (max-width: 960px) {
+  .sobre h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre h1 {
+    font-size: 2.3em;
+  }
+  .sobre-conteiner p {
+    font-size: 1em;
+    padding: 20px 40px 20px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sobre h1 {
+    font-size: 2em;
+  }
+  .sobre-conteiner p {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px 30px 10px 30px;
+  }
+  .texto1 p::after {
+    margin-bottom: 50px;
+  }
+  .texto2 p::after {
+    margin-bottom: 50px;
+  }
+  .texto3 p::after {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sobre h1 {
+    font-size: 1.8em;
+  }
+  .sobre-conteiner p {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+
+/* Responsivo */
+
+@media (max-width: 600px) {
+  .footer-contato h3 ,
+  .footer-informacoes h3 {
+    font-size: 1em;
+  }
+  .footer-conteiner a, li {
+  font-size: 0.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-logo img {
+    width: 60px;
+    margin-left: 10px;
+  }
+  .footer-logo2 img {
+    width: 80px;
+  }
+  .footer-contato h3 ,
+  .footer-informacoes h3 {
+    font-size: 0.9em;
+  }
+  .footer-conteiner a, li {
+  font-size: 0.9em;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer-logo {
+    display: none;    
+  }
+
+  .footer-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-contato h3 ,
+  .footer-informacoes h3 {
+    font-size: 0.9em;
+  }
+  .footer-conteiner a, li {
+  font-size: 0.8em;
+  }
+  .footer-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .redes img {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .footer-copy {
+    margin-top: 10px;
+    color: #BBCAEE;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    font-size: 0.9em;
+  }
 }
