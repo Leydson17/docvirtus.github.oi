@@ -94,7 +94,8 @@ span {
   position: absolute
 }
 
-.menu-nav a:hover::after {
+.menu-nav a:hover::after,
+.menu-nav a.ativo::after {
   width: 100%;
 }
 

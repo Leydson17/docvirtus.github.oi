@@ -65,7 +65,8 @@
   position: absolute
 }
 
-.menu-nav a:hover::after {
+.menu-nav a:hover::after,
+.menu-nav a.ativo {
   width: 100%;
 }
 

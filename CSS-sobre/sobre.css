@@ -32,7 +32,7 @@ span {
 }
 
 .menu-container {
-  max-width: 1200px;
+  max-width: 960px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -93,7 +93,8 @@ span {
   position: absolute
 }
 
-.menu-nav a:hover::after {
+.menu-nav a:hover::after,
+.menu-nav a.ativo::after {
   width: 100%;
 }
 
